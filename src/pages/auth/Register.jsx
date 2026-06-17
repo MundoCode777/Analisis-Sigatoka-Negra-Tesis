@@ -35,7 +35,8 @@ export default function Register() {
     }
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/auth/register", {
+      // ✅ Línea corregida
+      const res = await fetch("http://localhost:5000/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
