@@ -1,70 +1,265 @@
-# Getting Started with Create React App
+# 🍃 BanaVision
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sistema Web y Móvil para la Detección de Sigatoka Negra en Hojas de Banano mediante Inteligencia Artificial
+---
 
-## Available Scripts
+## 📖 Descripción
 
-In the project directory, you can run:
+BanaVision es una aplicación web y móvil desarrollada para apoyar la detección temprana de la Sigatoka Negra en cultivos de banano mediante técnicas de Inteligencia Artificial.
 
-### `npm start`
+El sistema permite analizar imágenes de hojas de banano para identificar la presencia de la enfermedad y determinar su estado de afectación. Además, incorpora un módulo de seguimiento agronómico que recomienda métodos de intervención humana según la etapa detectada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Objetivo
 
-### `npm test`
+Desarrollar una aplicación web y móvil capaz de detectar la Sigatoka Negra en hojas de banano utilizando Inteligencia Artificial, proporcionando recomendaciones de tratamiento, seguimiento del estado de la planta y material audiovisual de apoyo para los productores.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# 🚀 Funcionalidades Principales
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👤 Módulo de Usuarios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Registro de usuarios.
+- Inicio de sesión.
+- Gestión de perfiles.
+- Control de roles.
+- Administración de usuarios.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔬 Módulo de Detección de Sigatoka Negra
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Permite identificar la enfermedad mediante el análisis de imágenes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Captura de imágenes desde cámara.
+- Carga de imágenes desde galería.
+- Procesamiento de imágenes.
+- Clasificación mediante Inteligencia Artificial.
+- Determinación del estado de la enfermedad.
+- Visualización de resultados.
+- Registro de detecciones.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Resultado generado
 
-## Learn More
+El sistema mostrará:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Estado detectado.
+- Nivel de confianza.
+- Fecha y hora.
+- Historial de detección.
+- Recomendación de tratamiento.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🌿 Módulo de Recomendación y Seguimiento
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Después de la detección, el sistema recomendará un tratamiento según el estado de la hoja.
 
-### Analyzing the Bundle Size
+### Etapas 1 a 3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Cuando la hoja se encuentre en los estados iniciales:
 
-### Making a Progressive Web App
+- Estado 1
+- Estado 2
+- Estado 3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+El sistema recomendará:
 
-### Advanced Configuration
+### ✂️ Método de Cirugía de la Hoja
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Consiste en eliminar únicamente la parte afectada de la hoja para evitar la propagación de la enfermedad y conservar la mayor cantidad posible de tejido sano.
 
-### Deployment
+Además, el sistema mostrará:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Video explicativo.
+- Procedimiento paso a paso.
+- Recomendaciones técnicas.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Etapas 4 a 6
+
+Cuando la enfermedad presente un nivel más avanzado:
+
+- Estado 4
+- Estado 5
+- Estado 6
+
+El sistema recomendará:
+
+### 🍂 Método de Deshoje
+
+Consiste en la eliminación parcial o total de hojas afectadas para reducir la propagación de la enfermedad dentro del cultivo.
+
+Además, el sistema mostrará:
+
+- Video explicativo.
+- Procedimiento paso a paso.
+- Recomendaciones técnicas.
+
+---
+
+## 📈 Seguimiento de la Planta
+
+Permite monitorear la evolución de la hoja después de aplicar el tratamiento.
+
+### Información registrada
+
+- Fecha de aplicación.
+- Responsable.
+- Método utilizado.
+- Estado de la planta.
+- Observaciones.
+- Evidencia fotográfica.
+
+### Estados de seguimiento
+
+- Severo
+- Crítico
+- Moderado
+- Mejorando
+- Recuperado
+
+---
+
+## 📍 Módulo de Geolocalización
+
+Permite:
+
+- Registrar lotes.
+- Asociar detecciones a una ubicación.
+- Visualizar la ubicación en mapa.
+- Consultar historial por lote.
+
+---
+
+## 📊 Módulo de Reportes
+
+Permite generar:
+
+- Reportes de detecciones.
+- Reportes de tratamientos.
+- Reportes de seguimiento.
+- Historial de actividades.
+- Estadísticas del cultivo.
+
+---
+
+# 🧠 Inteligencia Artificial
+
+La aplicación utiliza modelos de Deep Learning para analizar imágenes de hojas de banano y determinar el estado de afectación por Sigatoka Negra.
+
+### Flujo del sistema
+
+```text
+Captura de Imagen
+        ↓
+Procesamiento
+        ↓
+Modelo de IA
+        ↓
+Clasificación
+        ↓
+Estado Detectado
+        ↓
+Recomendación
+        ↓
+Video Explicativo
+        ↓
+Seguimiento
+        ↓
+Reporte
+```
+
+---
+
+# 🏗 Arquitectura
+
+## Frontend
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+
+## Backend
+
+- Node.js
+- Express.js
+
+## Inteligencia Artificial
+
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+
+## Base de Datos
+
+- MongoDB Atlas
+
+---
+
+# 📂 Estructura del Proyecto
+
+```text
+BananaCare
+│
+├── frontend
+│
+├── backend
+│
+├── ia
+│
+├── uploads
+│
+├── videos
+│   ├── cirugia-hoja.mp4
+│   └── deshoje.mp4
+│
+└── README.md
+```
+
+---
+
+# 🎥 Material Educativo
+
+El sistema incorpora videos educativos para apoyar al productor en la aplicación correcta de los tratamientos recomendados.
+
+### Video de Cirugía de Hoja
+
+Disponible cuando la detección corresponde a:
+
+- Estado 1
+- Estado 2
+- Estado 3
+
+### Video de Deshoje
+
+Disponible cuando la detección corresponde a:
+
+- Estado 4
+- Estado 5
+- Estado 6
+
+---
+
+# 👨‍💻 Autor
+
+Luis Andrés Rodríguez Valle
+
+Universidad Agraria del Ecuador
+
+Ingeniería en Ciencias de la Computación
+
++593 979 379 332
+
+---
+
+# 🎓 Proyecto de Titulación
+
+Aplicación Web y Móvil para la Detección de Sigatoka Negra en Hojas de Banano mediante Inteligencia Artificial 

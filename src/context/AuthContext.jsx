@@ -20,6 +20,7 @@ export function AuthProvider({ children }) {
   const handleLogout = async () => {
     await logout();
     setUser(null);
+    localStorage.removeItem("token");
   };
 
   return (
